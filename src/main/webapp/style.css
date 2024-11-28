@@ -1,0 +1,97 @@
+/* Estilos generales */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f9; /* Un color suave de fondo */
+    margin: 0;
+    padding: 0;
+}
+
+/* Contenedor principal */
+.container {
+    width: 100%;
+    max-width: 600px; /* Limita el ancho */
+    margin: 50px auto;
+    background-color: #fff; /* Fondo blanco para el formulario */
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra suave */
+}
+
+/* Títulos */
+h1 {
+    text-align: center;
+    color: #333;
+    font-size: 24px;
+}
+
+/* Etiquetas y campos de entrada */
+label {
+    font-size: 16px;
+    color: #333;
+    display: block;
+    margin-bottom: 8px;
+}
+
+input[type="number"], input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    margin: 8px 0;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-sizing: border-box; /* Asegura que el padding no afecte el tamaño total */
+}
+
+/* Asegurar que los campos se vean bien alineados */
+input[type="number"] {
+    font-size: 16px;
+}
+
+/* Estilo para el botón de enviar */
+input[type="submit"] {
+    background-color: #007bff; /* Un azul vibrante */
+    color: white;
+    cursor: pointer;
+    font-size: 18px;
+}
+
+input[type="submit"]:hover {
+    background-color: #0056b3; /* Cambio de color cuando el mouse pasa sobre el botón */
+}
+
+/* Estilos para los mensajes de error o advertencia */
+input:invalid {
+    border-color: red;
+}
+
+/* Estilo para la página de resultados */
+.result-container {
+    width: 100%;
+    max-width: 600px;
+    margin: 50px auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+}
+
+p {
+    font-size: 18px;
+    color: #555;
+}
+
+a {
+    display: block;
+    text-align: center;
+    margin-top: 20px;
+    color: #007bff;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #0056b3;
+}

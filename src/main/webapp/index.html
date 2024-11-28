@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Formulario Cinemática</title>
+    <link rel="stylesheet" type="text/css" href="style.css"> <!-- Vincular el archivo CSS -->
+</head>
+<body>
+
+<div class="container">
+    <h1>Formulario de Cinemática</h1>
+    <form action="CinematicaServlet" method="POST">
+        <label for="aceleracion">Aceleración (m/s²):</label>
+        <input type="number" id="aceleracion" name="aceleracion" required><br><br>
+
+        <label for="velocidad_inicial">Velocidad Inicial (m/s):</label>
+        <input type="number" id="velocidad_inicial" name="velocidad_inicial" value="0" required><br><br>
+
+        <label for="tiempo_adicional">Tiempo Adicional (segundos):</label>
+        <input type="number" id="tiempo_adicional" name="tiempo_adicional" required><br><br>
+
+        <input type="submit" value="Calcular">
+    </form>
+</div>
+
+</body>
+</html>
